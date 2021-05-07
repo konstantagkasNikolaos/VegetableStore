@@ -1,3 +1,3 @@
 # VegetableStore
 
-A vegetable store for exercise purpose
+A vegetable store for exercise purpose.
