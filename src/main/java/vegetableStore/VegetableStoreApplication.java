@@ -9,7 +9,6 @@ public class VegetableStoreApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(VegetableStoreApplication.class, args);
 
-		System.out.println("yo");
 	}
 
 }

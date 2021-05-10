@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head th:include="fragments/head :: myHead">
+
+</head>
+
+<body>
+
+	<div th:replace="fragments/navBar">navBar</div>
+
+	<div class="container" style="margin-top: 30px">
+		<h1>Welcome to Vegetable Store</h1>
+		
+		<img th:src="@{/images/storePhoto.jpg}" alt="photo not found"
+			width="700" height="500" />
+	</div>
+</body>
+</html>
